@@ -1,0 +1,172 @@
+$date
+	Wed Feb 21 14:28:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module TestEdge2En $end
+$var wire 1 ! outRF $end
+$var wire 1 " out2 $end
+$var wire 1 # out1 $end
+$var wire 1 $ enR $end
+$var wire 1 % enF $end
+$var wire 1 & en2 $end
+$var wire 1 ' en1 $end
+$var reg 1 ( clk $end
+$var reg 1 ) in $end
+$scope module theEd2E $end
+$var wire 1 ( clk $end
+$var wire 1 ) in $end
+$var wire 1 $ rising $end
+$var wire 1 ! out $end
+$var wire 1 % falling $end
+$var parameter 32 * SYNC_STG $end
+$var reg 2 + dly [1:0] $end
+$upscope $end
+$scope module theR2E1 $end
+$var wire 1 ( clk $end
+$var wire 1 ) in $end
+$var wire 1 # out $end
+$var wire 1 ' en $end
+$var parameter 32 , SYNC_STG $end
+$var reg 2 - dly [1:0] $end
+$upscope $end
+$scope module theR2E2 $end
+$var wire 1 ( clk $end
+$var wire 1 ) in $end
+$var wire 1 " out $end
+$var wire 1 & en $end
+$var parameter 32 . SYNC_STG $end
+$var reg 3 / dly [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 .
+b1 ,
+b1 *
+$end
+#0
+$dumpvars
+bx /
+bx -
+bx +
+0)
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0'
+0$
+bx0 -
+bx0 /
+bx0 +
+1(
+#10
+0(
+#15
+0%
+0!
+0&
+0#
+b0 +
+bx00 /
+b0 -
+1(
+#20
+0(
+#25
+0"
+b0 /
+1(
+#30
+0(
+#35
+1(
+#40
+0(
+#44
+1)
+#45
+1'
+1$
+b1 -
+b1 /
+b1 +
+1(
+#50
+0(
+#55
+0$
+1!
+1&
+0'
+1#
+b11 +
+b11 /
+b11 -
+1(
+#60
+0(
+#65
+0&
+1"
+b111 /
+1(
+#70
+0(
+#75
+1(
+#80
+0(
+#85
+1(
+#90
+0(
+#95
+1(
+#100
+0(
+0)
+#105
+1%
+b10 -
+b110 /
+b10 +
+1(
+#110
+0(
+#115
+0%
+0!
+0#
+b0 +
+b100 /
+b0 -
+1(
+#120
+0(
+#125
+0"
+b0 /
+1(
+#130
+0(
+#135
+1(
+#140
+0(
+#145
+1(
+#150
+0(
