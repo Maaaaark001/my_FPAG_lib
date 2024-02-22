@@ -18,7 +18,7 @@ module TestPulseWiden;
     initial begin
         $dumpfile("wave.vcd");
         $dumpvars(0, TestPulseWiden );
-    #200 $finish;
+    #400 $finish;
     end
 	logic out, out2, out3;
 	PulseWiden #(4) pw1(clk, in, out);
