@@ -8,150 +8,147 @@
 :vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
 :vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
 :vpi_module "C:\iverilog\lib\ivl\v2009.vpi";
-S_0000020be8e06fd0 .scope package, "$unit" "$unit" 2 1;
+S_000001ce19c7bb00 .scope package, "$unit" "$unit" 2 1;
  .timescale 0 0;
-S_0000020be8e07160 .scope module, "TestMux" "TestMux" 3 3;
+S_000001ce19c7bc90 .scope module, "TestMux" "TestMux" 3 3;
  .timescale -12 -12;
-v0000020be8e4d030_0 .array/port v0000020be8e4d030, 0;
-L_0000020be8e9d7b0 .functor BUFZ 8, v0000020be8e4d030_0, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e4d030_1 .array/port v0000020be8e4d030, 1;
-L_0000020be8e9d510 .functor BUFZ 8, v0000020be8e4d030_1, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e4d030_2 .array/port v0000020be8e4d030, 2;
-L_0000020be8e9d430 .functor BUFZ 8, v0000020be8e4d030_2, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e4d030_3 .array/port v0000020be8e4d030, 3;
-L_0000020be8e9da50 .functor BUFZ 8, v0000020be8e4d030_3, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e4d030_4 .array/port v0000020be8e4d030, 4;
-L_0000020be8e9d890 .functor BUFZ 8, v0000020be8e4d030_4, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e4d030 .array "a", 0 4, 7 0;
-v0000020be8e550e0_0 .var "sel", 1 0;
-v0000020be8e55180_0 .net "y", 7 0, L_0000020be8db9570;  1 drivers
-S_0000020be8db65d0 .scope begin, "$ivl_for_loop0" "$ivl_for_loop0" 3 8, 3 8 0, S_0000020be8e07160;
+v000001ce19af0870_0 .array/port v000001ce19af0870, 0;
+L_000001ce19af0e80 .functor BUFZ 8, v000001ce19af0870_0, C4<00000000>, C4<00000000>, C4<00000000>;
+v000001ce19af0870_1 .array/port v000001ce19af0870, 1;
+L_000001ce19af1120 .functor BUFZ 8, v000001ce19af0870_1, C4<00000000>, C4<00000000>, C4<00000000>;
+v000001ce19af0870_2 .array/port v000001ce19af0870, 2;
+L_000001ce19af0ef0 .functor BUFZ 8, v000001ce19af0870_2, C4<00000000>, C4<00000000>, C4<00000000>;
+v000001ce19af0870_3 .array/port v000001ce19af0870, 3;
+L_000001ce19af0da0 .functor BUFZ 8, v000001ce19af0870_3, C4<00000000>, C4<00000000>, C4<00000000>;
+v000001ce19af0870 .array "a", 0 3, 7 0;
+v000001ce19af0910_0 .var "sel", 1 0;
+v000001ce19af09b0_0 .net "y", 7 0, L_000001ce19c7b970;  1 drivers
+S_000001ce19af6fd0 .scope begin, "$ivl_for_loop0" "$ivl_for_loop0" 3 8, 3 8 0, S_000001ce19c7bc90;
  .timescale -12 -12;
-v0000020be8df5810_0 .var/i "i", 31 0;
-S_0000020be8db6760 .scope module, "theMux" "Mux" 3 19, 4 2 0, S_0000020be8e07160;
+v000001ce19c7be20_0 .var/i "i", 31 0;
+S_000001ce19af7160 .scope module, "theMux" "Mux" 3 19, 4 2 0, S_000001ce19c7bc90;
  .timescale -12 -12;
-    .port_info 0 /INPUT 40 "in";
+    .port_info 0 /INPUT 32 "in";
     .port_info 1 /INPUT 2 "sel";
     .port_info 2 /OUTPUT 8 "out";
-P_0000020be8df58b0 .param/l "CH" 0 4 4, +C4<00000000000000000000000000000100>;
-P_0000020be8df58e8 .param/l "DW" 0 4 3, +C4<00000000000000000000000000001000>;
-L_0000020be8db9570 .functor BUFZ 8, L_0000020be8e55220, C4<00000000>, C4<00000000>, C4<00000000>;
-v0000020be8e072f0_0 .net *"_ivl_0", 7 0, L_0000020be8e55220;  1 drivers
-v0000020be8e07390_0 .net *"_ivl_2", 3 0, L_0000020be8e552c0;  1 drivers
-L_0000020be8e55368 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
-v0000020be8db68f0_0 .net *"_ivl_5", 1 0, L_0000020be8e55368;  1 drivers
-v0000020be8db6990 .array "in", 0 4;
-v0000020be8db6990_0 .net v0000020be8db6990 0, 7 0, L_0000020be8e9d7b0; 1 drivers
-v0000020be8db6990_1 .net v0000020be8db6990 1, 7 0, L_0000020be8e9d510; 1 drivers
-v0000020be8db6990_2 .net v0000020be8db6990 2, 7 0, L_0000020be8e9d430; 1 drivers
-v0000020be8db6990_3 .net v0000020be8db6990 3, 7 0, L_0000020be8e9da50; 1 drivers
-v0000020be8db6990_4 .net v0000020be8db6990 4, 7 0, L_0000020be8e9d890; 1 drivers
-v0000020be8e044b0_0 .net "out", 7 0, L_0000020be8db9570;  alias, 1 drivers
-v0000020be8e04550_0 .net "sel", 1 0, v0000020be8e550e0_0;  1 drivers
-L_0000020be8e55220 .array/port v0000020be8db6990, L_0000020be8e552c0;
-L_0000020be8e552c0 .concat [ 2 2 0 0], v0000020be8e550e0_0, L_0000020be8e55368;
-    .scope S_0000020be8e07160;
+P_000001ce19c769e0 .param/l "CH" 0 4 4, +C4<00000000000000000000000000000100>;
+P_000001ce19c76a18 .param/l "DW" 0 4 3, +C4<00000000000000000000000000001000>;
+L_000001ce19c7b970 .functor BUFZ 8, L_000001ce19af0a50, C4<00000000>, C4<00000000>, C4<00000000>;
+v000001ce19c7b8d0_0 .net *"_ivl_0", 7 0, L_000001ce19af0a50;  1 drivers
+v000001ce19af72f0_0 .net *"_ivl_2", 3 0, L_000001ce19af0af0;  1 drivers
+L_000001ce19b49438 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v000001ce19af7390_0 .net *"_ivl_5", 1 0, L_000001ce19b49438;  1 drivers
+v000001ce19af0690 .array "in", 0 3;
+v000001ce19af0690_0 .net v000001ce19af0690 0, 7 0, L_000001ce19af0e80; 1 drivers
+v000001ce19af0690_1 .net v000001ce19af0690 1, 7 0, L_000001ce19af1120; 1 drivers
+v000001ce19af0690_2 .net v000001ce19af0690 2, 7 0, L_000001ce19af0ef0; 1 drivers
+v000001ce19af0690_3 .net v000001ce19af0690 3, 7 0, L_000001ce19af0da0; 1 drivers
+v000001ce19af0730_0 .net "out", 7 0, L_000001ce19c7b970;  alias, 1 drivers
+v000001ce19af07d0_0 .net "sel", 1 0, v000001ce19af0910_0;  1 drivers
+L_000001ce19af0a50 .array/port v000001ce19af0690, L_000001ce19af0af0;
+L_000001ce19af0af0 .concat [ 2 2 0 0], v000001ce19af0910_0, L_000001ce19b49438;
+    .scope S_000001ce19c7bc90;
 T_0 ;
     %pushi/vec4 0, 0, 2;
-    %store/vec4 v0000020be8e550e0_0, 0, 2;
+    %store/vec4 v000001ce19af0910_0, 0, 2;
     %end;
     .thread T_0, $init;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_1 ;
-    %fork t_1, S_0000020be8db65d0;
+    %fork t_1, S_000001ce19af6fd0;
     %jmp t_0;
-    .scope S_0000020be8db65d0;
+    .scope S_000001ce19af6fd0;
 t_1 ;
     %pushi/vec4 0, 0, 32;
-    %store/vec4 v0000020be8df5810_0, 0, 32;
+    %store/vec4 v000001ce19c7be20_0, 0, 32;
 T_1.0 ;
-    %load/vec4 v0000020be8df5810_0;
+    %load/vec4 v000001ce19c7be20_0;
     %cmpi/s 4, 0, 32;
     %jmp/0xz T_1.1, 5;
     %pushi/vec4 0, 0, 8;
-    %ix/getv/s 3, v0000020be8df5810_0;
+    %ix/getv/s 3, v000001ce19c7be20_0;
     %ix/load 4, 0, 0; Constant delay
-    %assign/vec4/a/d v0000020be8e4d030, 0, 4;
-    %load/vec4 v0000020be8df5810_0;
+    %assign/vec4/a/d v000001ce19af0870, 0, 4;
+    %load/vec4 v000001ce19c7be20_0;
     %addi 1, 0, 32;
-    %store/vec4 v0000020be8df5810_0, 0, 32;
+    %store/vec4 v000001ce19c7be20_0, 0, 32;
     %jmp T_1.0;
 T_1.1 ;
     %end;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 t_0 %join;
     %end;
     .thread T_1;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_2 ;
     %delay 10, 0;
     ; show_stmt_assign_vector: Get l-value for compressed += operand
     %ix/load 3, 0, 0;
     %flag_set/imm 4, 0;
-    %load/vec4a v0000020be8e4d030, 3;
+    %load/vec4a v000001ce19af0870, 3;
     %pushi/vec4 1, 0, 8;
     %add;
     %flag_set/imm 4, 0;
     %ix/load 4, 0, 0;
-    %store/vec4a v0000020be8e4d030, 4, 0;
+    %store/vec4a v000001ce19af0870, 4, 0;
     %jmp T_2;
     .thread T_2;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_3 ;
     %delay 20, 0;
     ; show_stmt_assign_vector: Get l-value for compressed += operand
     %ix/load 3, 1, 0;
     %flag_set/imm 4, 0;
-    %load/vec4a v0000020be8e4d030, 3;
+    %load/vec4a v000001ce19af0870, 3;
     %pushi/vec4 1, 0, 8;
     %add;
     %flag_set/imm 4, 0;
     %ix/load 4, 1, 0;
-    %store/vec4a v0000020be8e4d030, 4, 0;
+    %store/vec4a v000001ce19af0870, 4, 0;
     %jmp T_3;
     .thread T_3;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_4 ;
     %delay 40, 0;
     ; show_stmt_assign_vector: Get l-value for compressed += operand
     %ix/load 3, 2, 0;
     %flag_set/imm 4, 0;
-    %load/vec4a v0000020be8e4d030, 3;
+    %load/vec4a v000001ce19af0870, 3;
     %pushi/vec4 1, 0, 8;
     %add;
     %flag_set/imm 4, 0;
     %ix/load 4, 2, 0;
-    %store/vec4a v0000020be8e4d030, 4, 0;
+    %store/vec4a v000001ce19af0870, 4, 0;
     %jmp T_4;
     .thread T_4;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_5 ;
     %delay 80, 0;
     ; show_stmt_assign_vector: Get l-value for compressed += operand
     %ix/load 3, 3, 0;
     %flag_set/imm 4, 0;
-    %load/vec4a v0000020be8e4d030, 3;
+    %load/vec4a v000001ce19af0870, 3;
     %pushi/vec4 1, 0, 8;
     %add;
     %flag_set/imm 4, 0;
     %ix/load 4, 3, 0;
-    %store/vec4a v0000020be8e4d030, 4, 0;
+    %store/vec4a v000001ce19af0870, 4, 0;
     %jmp T_5;
     .thread T_5;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_6 ;
     %delay 160, 0;
     ; show_stmt_assign_vector: Get l-value for compressed += operand
-    %load/vec4 v0000020be8e550e0_0;
+    %load/vec4 v000001ce19af0910_0;
     %pushi/vec4 1, 0, 2;
     %add;
-    %store/vec4 v0000020be8e550e0_0, 0, 2;
+    %store/vec4 v000001ce19af0910_0, 0, 2;
     %jmp T_6;
     .thread T_6;
-    .scope S_0000020be8e07160;
+    .scope S_000001ce19c7bc90;
 T_7 ;
     %vpi_call/w 3 21 "$dumpfile", "wave.vcd" {0 0 0};
-    %vpi_call/w 3 22 "$dumpvars", 32'sb00000000000000000000000000000000, S_0000020be8e07160 {0 0 0};
+    %vpi_call/w 3 22 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001ce19c7bc90 {0 0 0};
     %delay 10000, 0;
     %vpi_call/w 3 23 "$finish" {0 0 0};
     %end;

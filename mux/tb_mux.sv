@@ -3,7 +3,7 @@
 module TestMux;
     //The original syntax is logic [7:0] a[4] = '{4{'0}};, which is not supported by iverilog.
     //So I wrote this initialization command in for form.
-    logic [7:0] a[4:0];
+    logic [7:0] a[3:0];
     initial begin
         for(integer i = 0; i <4; i = i + 1) begin
             a[i] <= 0;
