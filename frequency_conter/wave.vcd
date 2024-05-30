@@ -1,5 +1,5 @@
 $date
-	Wed May 29 21:44:16 2024
+	Thu May 30 14:48:02 2024
 $end
 $version
 	Icarus Verilog
@@ -12,7 +12,7 @@ $var wire 64 ! fre [63:0] $end
 $var reg 1 " clk_fs $end
 $var reg 1 # clk_fx $end
 $var reg 1 $ rst_n $end
-$scope module cymometer_equal_inst $end
+$scope module frequency_conter_inst $end
 $var wire 1 " clk_fs $end
 $var wire 1 # clk_fx $end
 $var wire 1 % neg_gate_fs $end

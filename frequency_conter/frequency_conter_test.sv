@@ -9,7 +9,7 @@ reg rst_n;
 wire [63:0]  fre;
 
 //------------<例化被测试模块>----------------------------------------
-cymometer_equal cymometer_equal_inst (
+frequency_conter frequency_conter_inst (
 	.clk_fs		(clk_fs	)	,
 	.clk_fx		(clk_fx	)	,
 	.fre		(fre	)	,

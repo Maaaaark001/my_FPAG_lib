@@ -1,5 +1,5 @@
 //等精度测量法(低频)
-module cymometer_equal (
+module frequency_conter (
         input                 clk_fs ,
         input                 rst_n  ,
         input                 clk_fx ,
